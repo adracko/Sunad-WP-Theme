@@ -1,0 +1,275 @@
+/*
+Theme Name: ColorMag Child
+Theme URI: http://www.sunad.com/
+Author: Kade Lyons
+Author URI: http://kadelyons.com/
+Description: This is a child theme of ColorMag designed by Kade Lyons
+Template: colormag
+Version: 1.0
+Tags: light, white, two-columns, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images, theme-options, post-formats
+Text Domain: colormag
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+
+
+
+
+h2{
+font-size:28px;
+}
+h3{
+font-size:22px;
+}
+
+.officegroup>section{
+padding:10px;
+margin-bottom:10px;
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+.officegroup h3{
+padding:0;
+border-bottom: 1px solid #000;
+margin-bottom:5px;
+font-size:18px;
+font-weight:bold;
+color:#333;
+cursor:default;
+}
+.officegroup ul{
+padding:0;
+margin:0;
+}
+.officegroup li{
+padding-left:25px;
+font-size:14px;
+list-style:none;
+}
+
+h3 .fa{
+color:#333;
+}
+
+.thumbnail-play{
+    float: left;
+    margin-right:15px;        
+}
+
+#obitad {
+    margin: 10px 150px;
+}
+.p-credit{
+    font-size: .65em;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+}
+.sticky, .category-breaking {
+    background-color: #ffdddd;
+}
+.single #content .post, #content .post {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+}
+.main-small-navigation .menu-primary-container, .main-small-navigation .nav-menu {
+    border-bottom: none;
+}
+.flexslider ul, .flexslider ol{
+padding:0px !important;
+margin-bottom: 30px;
+}
+.flexslider .slides img, .featured-image img {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+width:auto;
+}
+.flexslider{
+max-width:400px;
+float: right;
+width: 100%;
+}
+
+.featured-image{
+    max-height: 650px;
+    margin: 0 0 15px;
+    background: #fff;
+    border: 4px solid #fff;
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    -o-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    zoom: 1;
+}
+
+blockquote {
+    float:right;
+    width:40%;
+    margin: 0 0 20px 10px;
+}
+
+.colormag-button, input[type="reset"], input[type="button"], input[type="submit"], button {
+    padding: 5px 10px;
+}
+
+.wpbdp-main-links>input {
+margin-right:5px;
+}
+
+#wpbdmsearchsubmit, #intextbox{
+margin-bottom:10px;
+}
+#intextbox{
+  width:initial;
+}
+.wu-current-conditions .wu-day-title sup {
+    top: -5px;
+}
+.sidebar_gallery_item{
+float:left;
+}
+
+.bnews a{
+color:#ff0000;
+font-weight:bold;
+}
+
+.wu-sponsor {
+float:left;
+width:100%;
+}
+
+.wp-caption-text, .wp-caption-text>p {
+text-align: left;
+font-size: small;
+padding: 5px 10px;
+}
+
+.featured-image {
+    position: relative;
+}
+
+#colophon .widget {
+    margin-bottom: 20px;
+}
+.col{
+height:auto;
+display:inline-block;
+float:left;
+margin: 7px;
+}
+.col2 {
+width:48%;
+}
+.col3 {
+width:30%;
+}
+
+.block{
+clear:both;
+overflow:auto;
+margin-bottom: 20px;
+}
+
+.block:nth-child(2n) {
+background:#eef;
+}
+
+ul.jaw_widget {
+    list-style: none;
+}
+.jaw_years {
+    font-size: 20px;
+}
+.jaw_months {
+    font-size: 16px;
+}
+
+
+
+
+@media screen and (max-width: 1190px) {
+
+   #obitad {
+    margin: 0;
+}
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+#headad{
+display:none;
+}
+.main-small-navigation .menu-primary-container, .main-small-navigation .nav-menu {
+    border-bottom: 10px solid #232323;
+}
+
+blockquote {
+    padding: 10px 30px 20px 45px;
+}
+
+blockquote p {
+    padding-left: 20px;
+}
+
+blockquote p:before {
+    top:-8px;
+    font-size: 40px;
+}
+
+}
+
+
+@media screen and (max-width:767px) {
+.col2, .col3 {
+width:100%;
+}
+
+blockquote {
+    width:100%;
+    margin: 0 0 20px 0;
+}
+
+#site-navigation-sticky-wrapper {
+    display: none;
+}
+#wprmenu_bar{
+    border-bottom: 4px solid #289dcc;
+}
+
+}
+@media screen and (max-width: 600px) {
+
+}
+@media screen and (max-width: 420px) {
+
+}
+@media screen and (max-width: 380px) {
+blockquote {
+    padding: 10px 20px 10px 35px;
+}
+
+blockquote p {
+    padding-left: 0px;
+    font-size: 15px;        
+}
+
+blockquote p:before {
+    top:-8px;
+    font-size: 20px;
+}
+}

@@ -1,0 +1,16 @@
+{# Copyright #}
+<div class="wu-copyright">
+
+	{% if wunderground.response.location.l is not empty %}
+		{% set copyright_link = 'http://' ~ subdomain ~ '.wunderground.com' ~ wunderground.response.location.l %}
+	{% else %}
+		{% set copyright_link = wunderground.current_observation.forecast_url %}
+	{% endif %}
+
+	<a href="{{ copyright_link }}" rel="external" title="{{ strings.view_forecast|format(wunderground.response.location.name) }}"><img src="{{logo}}" alt="Wunderground.com" width="49" height="22" /></a>
+
+</div>
+<div class="wu-sponsor">
+<a href="http://kmb101.com/"><img src="http://sunad.com/ads/permalink/weather-sponsor.jpg" style="float:right; height:80px;"></a>
+Weather sponsored by <br><a href="http://kmb101.com/">Sun Somewhere<br>Real Estate Station LLC</a><br>90 W 100 N, Price<br><a href="tel:+1-435-637-5397">435-637-KEYS</a>
+</div>
