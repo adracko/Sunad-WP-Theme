@@ -195,6 +195,9 @@ ul.jaw_widget {
 .jaw_months {
     font-size: 16px;
 }
+#sab-gravatar img {
+    border-radius: 100%;
+}
 
 
 
@@ -242,6 +245,16 @@ width:100%;
 blockquote {
     width:100%;
     margin: 0 0 20px 0;
+    padding:0;
+}
+
+blockquote p {
+    padding-left: 40px;
+}
+blockquote p:before{
+    top:-4px;
+    left:4px;
+    font-size:30px;
 }
 
 #site-navigation-sticky-wrapper {
